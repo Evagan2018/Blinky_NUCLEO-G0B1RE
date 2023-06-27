@@ -1,0 +1,12 @@
+build-idx:
+  generated-by: csolution version 2.0.0-dev3
+  csolution: Blinky.csolution.yaml
+  cprojects:
+    - cproject: Blinky.cproject.yaml
+  cbuilds:
+    - cbuild: Blinky.Debug+NUCLEO-G0B1RE.cbuild.yml
+      project: Blinky
+      configuration: .Debug+NUCLEO-G0B1RE
+    - cbuild: Blinky.Release+NUCLEO-G0B1RE.cbuild.yml
+      project: Blinky
+      configuration: .Release+NUCLEO-G0B1RE
