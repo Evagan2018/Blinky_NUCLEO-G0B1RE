@@ -5,6 +5,8 @@ The **Blinky** project is a simple example that can be used to verify the basic 
  - At start the vioLED0 blinks in 1 sec interval.
  - The vioBUTTON0 changes the blink frequency and start/stops vioLED1.
 
+[![Keil Studio Cloud - Import Project](https://img.shields.io/badge/Keil_Studio_Cloud-Import_Project-0091bd?logo=arm&logoColor=0091bd)](https://studio.keil.arm.com/?import=https://github.com/Arm-Examples/Blinky_NUCLEO-G0B1RE.git)
+
 ## Prerequisites
 
 ### Tools:
