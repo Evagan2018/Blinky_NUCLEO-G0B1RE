@@ -3,10 +3,10 @@ solution:
   created-for: CMSIS-Toolbox@2.0.0
   description: Simple blinky example to verify basic tools setup.
   packs:
-    - pack: Keil::STM32G0xx_DFP
-    - pack: ARM::CMSIS
+    - pack: Keil::STM32G0xx_DFP@1.4.0
+    - pack: ARM::CMSIS@5.9.0
     - pack: Keil::ARM_Compiler
-    - pack: Keil::NUCLEO-G0B1RE_BSP
+    - pack: Keil::NUCLEO-G0B1RE_BSP@1.0.0
   target-types:
     - type: NUCLEO-G0B1RE
       device: STM32G0B1RETx
