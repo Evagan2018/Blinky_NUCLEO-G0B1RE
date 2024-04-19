@@ -1,0 +1,12 @@
+{
+    "cmsis-csolution.actions": [
+        {
+            "path": "Blinky.csolution.yaml",
+            "target": "NUCLEO-G0B1RE",
+            "config": {
+                "run": "arm-debugger.flash: Flash Device",
+                "debug": "Arm Debugger"
+            }
+        }
+    ]
+}

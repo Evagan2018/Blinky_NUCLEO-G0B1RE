@@ -1,5 +1,6 @@
 build-idx:
-  generated-by: csolution version 2.0.0-dev3
+  generated-by: csolution version 2.3.0
+  description: Simple blinky example to verify basic tools setup.
   csolution: Blinky.csolution.yaml
   cprojects:
     - cproject: Blinky.cproject.yaml

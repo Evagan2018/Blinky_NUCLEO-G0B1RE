@@ -4,3 +4,4 @@ tmp
 **/*.cprj
 **/cbuild-idx.yml
 .clangd
+**/*base@*
