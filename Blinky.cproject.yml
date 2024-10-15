@@ -1,0 +1,36 @@
+project:
+
+  groups:
+    - group: App
+      files:
+        - file: Blinky.c
+    - group: :STM32CubeMX:Common Sources
+      files:
+        - file: RTE/Device/STM32G0B1RETx/STCubeGenerated/Src/main.c
+        - file: RTE/Device/STM32G0B1RETx/STCubeGenerated/Inc/stm32g0xx_it.h
+        - file: RTE/Device/STM32G0B1RETx/STCubeGenerated/Src/stm32g0xx_it.c
+    - group: STM32CubeMX
+      files:
+        - file: RTE/Device/STM32G0B1RETx/STCubeGenerated/STCubeGenerated.ioc
+    - group: Documentation
+      files:
+        - file: README.md
+    - group: Scatter File
+      files:
+        - file: stm32g071.sct
+
+  components:
+    - component: CMSIS:CORE
+    - component: CMSIS:RTOS2:Keil RTX5&Source
+    - component: Compiler&ARM Compiler:Event Recorder&DAP
+    - component: Board Support&NUCLEO-G0B1RE:Drivers:Basic I/O
+    - component: CMSIS Driver:VIO:Board&NUCLEO-G0B1RE
+    - component: Device:STM32Cube HAL:Common
+    - component: Device:STM32Cube HAL:Cortex
+    - component: Device:STM32Cube HAL:DMA
+    - component: Device:STM32Cube HAL:GPIO
+    - component: Device:STM32Cube HAL:PWR
+    - component: Device:STM32Cube HAL:RCC
+    - component: Device:STM32Cube HAL:UART
+    - component: Device:Startup
+    - component: Device:STM32Cube Framework:STM32CubeMX

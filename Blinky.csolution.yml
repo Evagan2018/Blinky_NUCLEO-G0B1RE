@@ -1,0 +1,28 @@
+solution:
+  description: Simple blinky example to verify basic tools setup.
+  created-for: CMSIS-Toolbox@2.6.0
+  compiler: AC6
+  cdefault: ./cdefault.yml
+
+  packs:
+    - pack: Keil::STM32G0xx_DFP@1.4.0
+    - pack: ARM::CMSIS@5.9.0
+    - pack: Keil::ARM_Compiler
+    - pack: Keil::NUCLEO-G0B1RE_BSP@1.0.0
+
+  target-types:
+    - type: NUCLEO-G0B1RE
+      device: STM32G0B1RETx
+      board: NUCLEO-G0B1RE
+
+  build-types:
+    - type: Debug
+      optimize: debug
+      debug: on
+
+    - type: Release
+      optimize: balanced
+      debug: off
+
+  projects:
+    - project: Blinky.cproject.yml
