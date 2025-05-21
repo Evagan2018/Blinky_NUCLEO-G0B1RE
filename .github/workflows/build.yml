@@ -27,4 +27,4 @@ jobs:
       # Build the release and debug executable for the AC6 compiler
       - name: Build release and debug executable
         run: |
-          cbuild Blinky.csolution.yml --packs --context .+NUCLEO-G0B1RE --rebuild
+          cbuild Blinky.csolution.yml --packs --context +NUCLEO-G0B1RE --rebuild
