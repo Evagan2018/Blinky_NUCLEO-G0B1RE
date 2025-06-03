@@ -2,7 +2,7 @@ solution:
   description: Simple blinky example to verify basic tools setup.
   created-for: CMSIS-Toolbox@2.6.0
   compiler: AC6
-  cdefault: cdefault.yml
+  cdefault:
 
   packs:
     - pack: Keil::STM32G0xx_DFP@1.4.0
